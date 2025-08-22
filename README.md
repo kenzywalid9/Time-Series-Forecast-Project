@@ -24,6 +24,7 @@ The dataset contains **339,166 transactions** with the following columns:
 
 
 ## 🔄 Workflow
+
 ```mermaid
 flowchart LR
     A[Raw Data] --> B[Data Preprocessing]
@@ -32,6 +33,7 @@ flowchart LR
     D --> E[Evaluation Metrics]
     E --> F[Forecasting Results]
     F --> G[Business Recommendations]
+
 
 **Data preprocessing steps:**
 - Aggregated sales per SKU on a monthly basis.
