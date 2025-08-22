@@ -11,7 +11,7 @@ The project applies **statistical, machine learning, and deep learning models** 
 The dataset contains **339,166 transactions** with the following columns:
 
 | Column Name            | Description |
-|------------------------|-------------|
+|------------------------|------------|
 | MainID                 | Unique transaction ID |
 | ItemId                 | SKU identifier |
 | Qty                    | Quantity sold |
@@ -22,7 +22,7 @@ The dataset contains **339,166 transactions** with the following columns:
 | TransactionDate        | Date of transaction |
 | NameEn                 | Item name in English |
 
----
+
 
 ## 🔄 Workflow
 
@@ -34,8 +34,7 @@ flowchart LR
     D --> E[Evaluation Metrics]
     E --> F[Forecasting Results]
     F --> G[Business Recommendations]
-
----
+```
 
 **Data preprocessing steps:**
 - Aggregated sales per SKU on a monthly basis.
