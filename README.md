@@ -22,6 +22,17 @@ The dataset contains **339,166 transactions** with the following columns:
 | TransactionDate        | Date of transaction |
 | NameEn                 | Item name in English |
 
+
+## 🔄 Workflow
+```mermaid
+flowchart LR
+    A[Raw Data] --> B[Data Preprocessing]
+    B --> C[Exploratory Data Analysis]
+    C --> D[Model Training]
+    D --> E[Evaluation Metrics]
+    E --> F[Forecasting Results]
+    F --> G[Business Recommendations]
+
 **Data preprocessing steps:**
 - Aggregated sales per SKU on a monthly basis.
 - Handled missing values in `TransactionDate`.
